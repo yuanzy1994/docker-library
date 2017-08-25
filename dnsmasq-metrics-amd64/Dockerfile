@@ -1,2 +1,2 @@
-FROM gcr.io/google_containers/dnsmasq-metrics-amd64:1.0
+FROM gcr.io/google_containers/dnsmasq-metrics-amd64:1.0.1
 MAINTAINER mritd <mritd@mritd.me>
