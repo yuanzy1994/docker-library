@@ -1,1 +1,7 @@
-docker build  -t kube-cross kube-cross/
+pipeline:
+  docker:
+    image: plugins/docker
+    username: jqka
+    password: redhat.com
+    repo: docker.io/jqka/kubernetes-dashboard-amd64
+    registry: docker.io
